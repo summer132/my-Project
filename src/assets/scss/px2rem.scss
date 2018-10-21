@@ -1,0 +1,5 @@
+$design-width: 375; //设计稿尺寸
+@function px2rem( $px )
+{
+  @return $px/$design-width*10 + rem; //对应js 
+}
